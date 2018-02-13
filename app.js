@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const commando = require('discord.js-commando');
 const settings = require('./settings/settings.json');
 const token = require('./settings/token.json');
-const updateJsonFile = require('update-json-file');
+
 
 // Commando
 
@@ -23,10 +23,12 @@ client.registry
     .registerDefaults()
     .registerCommandsIn(path.join(__dirname, 'commands'));
 
-// discordCONSOLE
+// START discordCONSOLE
 // 		This is the core of discordCONSOLE, if you want to add this into your own bot simply copy/paste this into your index.js
 //  	or include it in a seperate file.
 //  	The rest of the bot is just generic.
+
+const updateJsonFile = require('update-json-file');
 
 console.log(`*** discord CONSOLE v${settings.version}`);
 console.log(`*** Use '//channel <name or ID>' to set the speaking channel.`);
@@ -108,7 +110,7 @@ function consoleCommands(command, argument) { // I know this is terrible
 	  }
 	}
 
-// END Discord.JS CONSOLE
+// END discordCONSOLE
 
 // Generic Discord logging
 

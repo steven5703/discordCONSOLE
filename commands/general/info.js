@@ -23,12 +23,12 @@ module.exports = class InfoCommand extends commando.Command {
 			const embed = new Discord.RichEmbed()
   				.setColor("#7a7373")
   				.setTitle("> discordCONSOLE")
-  				.setDescription("This is CONSOLE, a simple bot written in discord.js that allows communication via command line. \n// TODO: add more shit here")
+  				.setDescription("This is discordCONSOLE, a simple bot written in discord.js that allows communication via command line. \n")
   				.addField(`> UPTIME`, `${uptimeSeconds} seconds.`, true)
   				.addField(`> PING  `, `${Math.round(msg.client.ping)}ms`, true)
   				.addField(`> MEM   `, `${memUsage}mb`, true)
   				.addField(`> AUTHOR`, "steven#1337", true) //
-  				.addField(`> LINKS `, `[GitHub](https://github.com/) | [Home Server]() | [discord.js](https://discord.js.org)`)
+  				.addField(`> LINKS `, `[GitHub](https://github.com/steven5703/discordCONSOLE) | [discord.js](https://discord.js.org)`)
   			msg.say('',{embed});
 
 	}
