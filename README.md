@@ -7,13 +7,13 @@ However, the main feature of this bot is not in the Discord client itself, it's 
 
 # Commands
 ### In Discord itself
--`!help` - Shows all commands.
--`!restart` - Restarts the bot
--`!info` - Shows simple information about the bot
+- `!help` - Shows all commands.
+- `!restart` - Restarts the bot
+- `!info` - Shows simple information about the bot
 - + some built in Commando commands.
 
 ### In console
--`//channel <exact name or ID>` - Sets the speaking channel. This must be ran *before* you are able to speak.
+- `//channel <exact name or ID>` - Sets the speaking channel. This must be ran *before* you are able to speak.
 
 # Known Issues (that probably won't be fixed)
 - You can't DM users.
